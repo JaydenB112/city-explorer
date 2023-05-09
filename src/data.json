@@ -1,0 +1,191 @@
+[
+    {
+        "place_id": "303776880",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "relation",
+        "osm_id": "197239",
+        "boundingbox": [
+            "34.9941528",
+            "35.263879",
+            "-90.308366",
+            "-89.637089"
+        ],
+        "lat": "35.1335022",
+        "lon": "-89.9668758",
+        "display_name": "Memphis, Shelby County, West Tennessee, Tennessee, USA",
+        "class": "boundary",
+        "type": "administrative",
+        "importance": 0.7276779473660264,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_boundary_administrative.p.20.png"
+    },
+    {
+        "place_id": "238632067",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "way",
+        "osm_id": "653703867",
+        "boundingbox": [
+            "29.8438685",
+            "29.8650979",
+            "31.2505031",
+            "31.2642467"
+        ],
+        "lat": "29.8544582",
+        "lon": "31.26151876961478",
+        "display_name": "Memphis, Darb Al Shawbkah, Mit Rahinah, Giza, 12921, Egypt",
+        "class": "historic",
+        "type": "archaeological_site",
+        "importance": 0.6425205820995435,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/tourist_archaeological2.p.20.png"
+    },
+    {
+        "place_id": "304599592",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "relation",
+        "osm_id": "6595921",
+        "boundingbox": [
+            "34.714154",
+            "34.7435322",
+            "-100.5584",
+            "-100.524687"
+        ],
+        "lat": "34.7253581",
+        "lon": "-100.540097",
+        "display_name": "Memphis, Hall County, Texas, 79245, USA",
+        "class": "boundary",
+        "type": "administrative",
+        "importance": 0.588602250830663,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_boundary_administrative.p.20.png"
+    },
+    {
+        "place_id": "115845037",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "way",
+        "osm_id": "32980535",
+        "boundingbox": [
+            "33.132441",
+            "33.140079",
+            "-88.30887",
+            "-88.291413"
+        ],
+        "lat": "33.136226",
+        "lon": "-88.2958147239772",
+        "display_name": "Memphis, Pickens County, Alabama, 35442, USA",
+        "class": "boundary",
+        "type": "administrative",
+        "importance": 0.508175130056335,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_boundary_administrative.p.20.png"
+    },
+    {
+        "place_id": "303768330",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "relation",
+        "osm_id": "141150",
+        "boundingbox": [
+            "40.449213",
+            "40.474056",
+            "-92.183117",
+            "-92.15591"
+        ],
+        "lat": "40.4578119",
+        "lon": "-92.1712924",
+        "display_name": "Memphis, Scotland County, Missouri, 63555, USA",
+        "class": "boundary",
+        "type": "administrative",
+        "importance": 0.4890073604909233,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_boundary_administrative.p.20.png"
+    },
+    {
+        "place_id": "303758783",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "relation",
+        "osm_id": "134880",
+        "boundingbox": [
+            "42.887159",
+            "42.9041751",
+            "-82.7794924",
+            "-82.7584528"
+        ],
+        "lat": "42.8964179",
+        "lon": "-82.7688135",
+        "display_name": "Memphis, Macomb County, Michigan, 48041, USA",
+        "class": "boundary",
+        "type": "administrative",
+        "importance": 0.4815239913351833,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_boundary_administrative.p.20.png"
+    },
+    {
+        "place_id": "304749110",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "relation",
+        "osm_id": "8475054",
+        "boundingbox": [
+            "32.2683147",
+            "32.2981792",
+            "35.8768844",
+            "35.9125601"
+        ],
+        "lat": "32.281235",
+        "lon": "35.9010013",
+        "display_name": "Jerash, Jerash Sub-District, Qasabah Jerash, Jarash, Jordan",
+        "class": "place",
+        "type": "town",
+        "importance": 0.46629799315229303,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_place_town.p.20.png"
+    },
+    {
+        "place_id": "303764389",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "relation",
+        "osm_id": "169571",
+        "boundingbox": [
+            "41.092346",
+            "41.09641",
+            "-96.438334",
+            "-96.429987"
+        ],
+        "lat": "41.0950598",
+        "lon": "-96.4319172",
+        "display_name": "Memphis, Saunders County, Nebraska, 68042, USA",
+        "class": "boundary",
+        "type": "administrative",
+        "importance": 0.42955506682079725,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_boundary_administrative.p.20.png"
+    },
+    {
+        "place_id": "115973852",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "way",
+        "osm_id": "33613881",
+        "boundingbox": [
+            "27.524695",
+            "27.56529",
+            "-82.574952",
+            "-82.535706"
+        ],
+        "lat": "27.54422765",
+        "lon": "-82.55850941129431",
+        "display_name": "Memphis, Memphis, Manatee County, Florida, 34221, USA",
+        "class": "place",
+        "type": "locality",
+        "importance": 0.4292608781983973,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_place_village.p.20.png"
+    },
+    {
+        "place_id": "116099792",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "way",
+        "osm_id": "33613883",
+        "boundingbox": [
+            "27.526718",
+            "27.5273",
+            "-82.564673",
+            "-82.5642988"
+        ],
+        "lat": "27.527024400000002",
+        "lon": "-82.5644864048443",
+        "display_name": "Memphis, Palmetto, Manatee County, Florida, 34221, USA",
+        "class": "boundary",
+        "type": "census",
+        "importance": 0.4292608781983973
+    }
+]
