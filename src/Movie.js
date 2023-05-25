@@ -12,7 +12,7 @@ function Movies(props) {
             <Card.Body>
               <Card.Title>{movie.title}</Card.Title>
               <Card.Text>{movie.overview}</Card.Text>
-              <Card.Text>Release Date: {movie.release_date}</Card.Text>
+              <Card.Text>Release Date: {movie.releaseDate}</Card.Text>
             </Card.Body>
           </Card>
         ))}
