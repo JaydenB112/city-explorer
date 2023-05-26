@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card } from 'react-bootstrap'
 import { Modal, Button } from 'react-bootstrap'
 import Weather from './Weather'
+import Movie from './Movie'
 
 function App(props) {
   const [showName, setShowName] = useState([])
@@ -15,6 +16,7 @@ function App(props) {
   const [locationTing, setLocationTing] = useState('')
   const [finishedURL, setFinishedURL] = useState('')
   const [weatherData, setWeatherData] = useState([])
+  const [movieData, setMovieData] = useState([])
   const [show, setShow] = useState(false)
 
   function handleClose() {
@@ -29,10 +31,18 @@ function App(props) {
         .then(function (response) {
           console.log(response.data[0].display_name + response.data[0].lat + response.data[0].lon)
           setLocationTing(response.data[0].display_name + response.data[0].lat + response.data[0].lon)
-          let backendLink = axios.get(`http://localhost:3002/weather?lat=${response.data[0].lat}&lon=${response.data[0].lon}&searchQuery=${displayString}`)
+          let backendLink = axios.get(`https://c-eshn.onrender.com/weather?lat=${response.data[0].lat}&lon=${response.data[0].lon}&searchQuery=${displayString}`)
             .then(function(response){
                 setWeatherData(response.data)
             })
+            let movieURL = axios.get(`https://c-eshn.onrender.com/movies?movie=${displayString}`)
+              .then(function(response){
+                console.log(response.data)
+                setMovieData(response.data);
+              })
+              .catch(function (error) {
+                console.error(error);
+              });
           // setLocationTing(response.data[0].lat + response.data[0].lon)
           let url = `https://maps.locationiq.com/v3/staticmap?key=${key}&center=${response.data[0].lat},${response.data[0].lon}`;
           console.log("url", url)
@@ -55,6 +65,8 @@ function App(props) {
         <h3>{locationTing}</h3>
         <Weather forecastData={weatherData}/>
         <img src={finishedURL} alt="Map image" />
+
+        <Movie movieProp ={movieData}/>
       </header>
       <div
         className="modal show"
