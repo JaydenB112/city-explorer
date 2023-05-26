@@ -31,11 +31,11 @@ function App(props) {
         .then(function (response) {
           console.log(response.data[0].display_name + response.data[0].lat + response.data[0].lon)
           setLocationTing(response.data[0].display_name + response.data[0].lat + response.data[0].lon)
-          let backendLink = axios.get(`http://localhost:3002/weather?lat=${response.data[0].lat}&lon=${response.data[0].lon}&searchQuery=${displayString}`)
+          let backendLink = axios.get(`https://c-eshn.onrender.com/weather?lat=${response.data[0].lat}&lon=${response.data[0].lon}&searchQuery=${displayString}`)
             .then(function(response){
                 setWeatherData(response.data)
             })
-            let movieURL = axios.get(`http://localhost:3002/movies?movie=${displayString}`)
+            let movieURL = axios.get(`https://c-eshn.onrender.com/movies?movie=${displayString}`)
               .then(function(response){
                 console.log(response.data)
                 setMovieData(response.data);
