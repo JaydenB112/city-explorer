@@ -4,15 +4,15 @@ import { Modal, Button, Card } from 'react-bootstrap'
 import React from 'react';
 
 function Movies(props) {
-    function MovieTime({title, overview, releaseDate}){
-        return(
-            <div>
-                <h3>{title}</h3>
-                <p>Overview:{overview}</p>
-                <p>Release Date:{releaseDate}</p>
-            </div>
-        );
-    }
+    // function MovieTime({title, overview, releaseDate}){
+    //     return(
+    //         <div>
+    //             <h3>{title}</h3>
+    //             <p>Overview:{overview}</p>
+    //             <p>Release Date:{releaseDate}</p>
+    //         </div>
+    //     );
+    // }
     return (
       < div className='Card'>
         {props.movieProp.map((movie) => (
